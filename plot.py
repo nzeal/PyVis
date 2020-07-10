@@ -15,7 +15,7 @@ plt.grid(linestyle="--")
 
 
 for files in glob.glob('*.out'):
-	print(files)
+##	print(files)
 
 	with open(files) as f:
 		x, y = np.loadtxt(f, dtype="float", comments="#", skiprows=13, unpack=True)
